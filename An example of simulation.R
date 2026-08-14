@@ -17,8 +17,8 @@ q1<-10     # The number of active response variables
 p<-100      # The number of predictor variables
 p1<-10      # Then number of active predictor variables
 
-theta.h<-6.5   # normal, n=200, 8.5(2.7551),7.5()
-normal<-TRUE    # t(3), n=200, 10(1.5580), 8.5(0.8427)
+theta.h<-6.5   # controlling signal-to-noise ratio
+normal<-TRUE    # Normal or t distributions.
 
 
 newdata<-c()
